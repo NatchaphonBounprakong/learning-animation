@@ -1,0 +1,87 @@
+#head {
+    animation: rotate 2s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#leg1 {
+    animation: rotate 2s infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+
+#leg2 {
+    animation: rotate2 2s infinite alternate;
+    transform-origin: top left;
+    transform-box: fill-box;
+}
+
+#left1 {
+    animation: rotate2 2s infinite alternate;
+    transform-origin: bottom center;
+    transform-box: fill-box;
+}
+
+#left2 {
+    animation: rotate3 2s infinite alternate;
+    transform-origin: bottom center;
+    transform-box: fill-box;
+}
+
+#left3 {
+    animation: rotate2 2s infinite alternate;
+    transform-origin: bottom center;
+    transform-box: fill-box;
+}
+
+#lamp {
+    animation: rotate4 4s infinite alternate;
+    transform-origin: bottom center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate4 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+
+    }
+}
+
+
+@keyframes rotate3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg);
+
+    }
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(10deg) translateX(11px);
+
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+
+    }
+}
